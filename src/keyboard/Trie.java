@@ -22,7 +22,7 @@ public class Trie implements ICandidate.IAutocompleteProvider {
 
 	// Inserts a word into the trie.
 	public boolean insert(String word) {
-		// HashMap<Character, TrieNode> = root.children;
+		
 		Map<Character, TrieNode> children = root.children;
 		TrieNode tn = root;
 		// iterate through the characters of a word
