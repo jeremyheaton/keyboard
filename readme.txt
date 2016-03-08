@@ -10,4 +10,3 @@ mvn clean install
 The classes in the program have the ability to constantly learn. Using the train() method, input 
 can constantly be written to the program. 
 
-The method 
